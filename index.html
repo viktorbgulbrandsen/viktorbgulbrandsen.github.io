@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Viktor Braaten Gulbrandsen</title>
+<style>
+  :root { --fg: #222; --muted: #6b6b6b; --bg: #fff; --rule: #e4e4e4; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e8e8e8; --muted: #9a9a9a; --bg: #141414; --rule: #2c2c2c; } }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); }
+  body { font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 60em; margin: 0 auto; padding: 40px 24px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+  h1 { font-size: 1.6em; font-weight: 600; margin: 0; }
+  header .muted { margin: 0; }
+  h2 { font-size: 0.78em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 22px 0 8px; }
+  p, li { margin: 0.4em 0; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  ul.dots { list-style: disc; padding-left: 1.2em; }
+  ul.dots li { margin: 0.25em 0; }
+  li .sub { display: block; color: var(--muted); font-size: 0.95em; }
+  .muted { color: var(--muted); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
+  @media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+  a { color: inherit; text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--fg); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Viktor Braaten Gulbrandsen</h1>
+      <p class="muted">Graduate student</p>
+    </div>
+    <p class="muted"><a href="mailto:viktorgu@math.uio.no">viktorgu@math.uio.no</a></p>
+  </header>
+
+  <div class="cols">
+    <section>
+      <h2>Research interests</h2>
+      <p>What human cognition can tell us about intelligence, and what intelligent systems can tell us about human cognition. Topics like:</p>
+      <ul class="dots">
+        <li>Deep learning</li>
+        <li>Statistical learning</li>
+        <li>Computational cognitive science</li>
+        <li>Predictive processing</li>
+      </ul>
+
+      <h2>Education</h2>
+      <ul>
+        <li>M.Sc., in progress &mdash; Norwegian University of Life Sciences (NMBU)</li>
+        <li>B.A., Mathematics and Computer Science &mdash; University of Oslo
+          <span class="sub">Thesis: ensemble distillation into soft decision trees, with connections to hierarchical mixtures of experts and probabilistic graphical models.</span></li>
+        <li>B.A., Cognitive Neuroscience &mdash; University of Oslo
+          <span class="sub">Thesis: approaches to computational motor control, from classical theory (forward and inverse models, optimal feedback control, Bayesian decision theory, Kalman filtering) to newer paradigms such as predictive processing and active inference.</span></li>
+      </ul>
+
+      <h2>Employment</h2>
+      <ul>
+        <li>Trags.ai
+          <span class="sub">Exploring agent-centric approaches to retrieval-augmented generation and context engineering for LLM systems.</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Outside academia</h2>
+      <ul class="dots">
+        <li>Consciousness research and the philosophy of consciousness science</li>
+        <li>Philosophy of technology (Stiegler, Simondon, Yuk Hui)</li>
+        <li>Political philosophy of artificial agents and institutions</li>
+        <li>Parametric and nonparametric estimation</li>
+        <li>Causality (Pearl, Peters), philosophy of science, experimental design</li>
+        <li>My favourite researcher is Michael I. Jordan, whose work inspired both my mathematics and my cognitive science thesis</li>
+      </ul>
+    </section>
+  </div>
+</main>
+</body>
+</html>
